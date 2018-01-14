@@ -7,4 +7,4 @@ $ python3 -m pip install --upgrade pip
 $ python3 -m pip install pygame --user
 -e 
 # TODO liste
-TO.DO
+TO.md
