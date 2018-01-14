@@ -1,6 +1,6 @@
 #+AUTHOR: RadeMathis
 
-* \TODO
+* TODO
 
 ** test
 *** test

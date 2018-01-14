@@ -4,7 +4,7 @@ format: mrproper README.md
 
 README.md: READ.ME TO.md
 	cat $< > $@
-	echo -e "\n# TODO liste" >> $@
+	echo "" > $@
 	cat TO.md >> $@
 
 mrproper:
