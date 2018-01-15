@@ -6,7 +6,8 @@ class Jeu :
             max_y=7,            # Size M of the board
             strat_1="keyboard", # Player 1 strategy
             strat_2="keyboard", # Player 2 strategy
-            view="console"      # What kind of display is used here
+            view="console"      # What kind of display is used here :
+                                ## "console", "gui-display"
     ) :
         self.grid = [[ "free" for i in range (max_x)] for j in range (max_y)]
         self.strat_1 = get_strategy (strat_1)
